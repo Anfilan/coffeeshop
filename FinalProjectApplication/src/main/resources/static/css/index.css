@@ -1,0 +1,515 @@
+.black-bar {
+    background-color: #26170F;
+    color: white;
+    font-size: 10px;
+    padding: 11px;
+    text-align: center;
+}
+.logo{
+    width: 50px;
+
+}
+
+#login-form{
+    background: white;
+    border: 1px solid #26170F;
+    /*margin: 0 auto;*/
+    width: 583px;
+    height: 325px;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+}
+
+#reg-form{
+    background: white;
+    border: 1px solid #26170F;
+    /*margin: 0 auto;*/
+    width: 583px;
+    height: 448px;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+}
+
+.card-form {
+    background: white;
+    border: 1px solid #26170F;
+    /*margin: 0 auto;*/
+    width: 583px;
+    height: 325px;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+}
+
+/*.search-button-block{*/
+/*    display: flex;*/
+/*    justify-content: center; !*Центрирование по горизонтали*!*/
+/*    align-items: center;*/
+/*}*/
+
+/*.username{*/
+/*    width: 350px;*/
+/*    */
+/*}*/
+#login-form div,
+#reg-form div{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+#login-form label,
+#reg-form label{
+    font-size: 17px;
+    padding: 5px;
+}
+
+#login-form input,
+#reg-form input{
+    height: 25px;
+}
+
+#login-form form input[type="text"],
+#reg-form form input[type="text"]{
+    color:  black;
+    width: 256px;
+}
+
+.login-button-block{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+    margin: 20px;
+}
+
+.registration-button{
+    width: 200px !important;
+}
+
+
+.black-bar-quote {
+    text-align: center;
+    color: #D9CDBF;
+    font-weight: normal;
+    font-size: 11px;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+.bar-button{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #D9B282;
+    border-radius: 0.6em;
+    color: #D9B282;
+    cursor: pointer;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover, .btn:focus {
+    color: #26170F;
+    outline: 0;
+}
+
+.follow {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.follow:hover {
+    box-shadow: 0 0 40px 40px #D9CDBF inset;
+}
+
+.search {
+    border-color: #8C4216;
+    color: #8C4216;
+    font-weight: bold;
+    font-size: 12px;
+    background-image: -webkit-linear-gradient(45deg, #D9B282 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #D9B282 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 140px;
+    margin: 8px;
+    outline: 0;
+
+}
+.search-button-admin {
+    border-color: #8C4216;
+    color: #8C4216;
+    font-weight: bold;
+    font-size: 12px;
+    background-image: -webkit-linear-gradient(45deg, #D9B282 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #D9B282 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 140px;
+    width: 215px;
+    height: 57px;
+    outline: 0;
+
+}
+.search:hover,
+.search-button-admin:hover
+{
+    background-position: 0;
+    outline: 0;
+    border: 2px solid white;
+
+}
+
+.block {
+    width: 100%;
+    margin: auto;
+}
+
+.img-border {
+    margin-top: 0;
+    padding: 0;
+    border: 2px solid #26170F;
+    height: 324px;
+}
+
+.product-list{
+    padding-left: 90px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    margin: 35px;
+    color: #735236;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #8C4216;
+    margin: 35px;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: #8C4216;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+#search-form{
+    background: white;
+    border: 1px solid grey;
+    /*margin: 0 auto;*/
+    width: 583px;
+    height: 325px;
+    padding: 15px;
+}
+
+#search-form select {
+    font-size: small;
+}
+
+
+.search-button-block{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+
+
+
+#search-form div{
+    margin-top: 8px;
+    margin-bottom: 1px;
+
+}
+
+
+#search-form label{
+    font-size: 12px;
+    padding: 5px;
+}
+#search-form p{
+    font-size: 12px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+#search-form input{
+    height: 25px;
+}
+#search-form form input[type="text"]{
+    color:  black;
+    width: 135px;
+}
+
+#search-form form input[type="radio"]{
+    width: 12px;
+    height: 13px;
+    accent-color: #8C4216;
+}
+
+#search-form form input[type="text"]:focus{
+    border: 1px solid #26170F;
+    outline: none;
+}
+
+.product-item{
+    display: grid;
+    border: 1px solid #9F9F9F;
+    border-radius: 35px;
+    padding: 20px;
+    margin: 30px;
+    transition: box-shadow 0.4s ease-out;
+}
+.product-item:hover{
+    box-shadow: 0px 0px 10px 0px #616161;
+}
+
+.product-title{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.product-item-img{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+    margin: 10px;
+}
+
+.product-item img{
+    margin: 10px;
+    height: 150px;
+}
+
+.product-title{
+    margin: 10px;
+
+}
+
+ a{
+    color: #26170F;
+    text-decoration: none;
+}
+
+.new-user{
+     color: #8C4216;
+    font-size: 18px
+}
+
+.new-coffee-fun{
+    height: 60px;
+    margin-right: 15px;
+}
+
+.product-price{
+    display: grid;
+    margin: 10px;
+}
+
+.product-price p{
+    color: #26170F;
+    font-weight: bold;
+}
+
+/*p, span { display: inline; }*/
+
+#search-form select,
+#search-form p {
+    display: inline;
+}
+
+.card-title{
+    color: #8C4216;
+    font-weight: bold;
+}
+
+.sm,
+.role-edit-form p{
+ display: inline;
+}
+
+.card-info{
+    font-size: 14px;
+}
+
+.card-form div{
+    margin-bottom: 7px;
+}
+
+.card-link-block{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+    margin: 30px;
+}
+
+.card-link{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-link a{
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.card-icon{
+    height: 40px;
+}
+
+.edit-card-icon{
+    height: 20px;
+}
+
+.footer{
+    height: 100px;
+}
+
+.edit-form{
+    background: white;
+    border: 1px solid #26170F;
+    /*margin: 0 auto;*/
+    width: 750px;
+    height: 582px;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+}
+
+.add{
+    height: 780px !important;
+}
+
+.edit-form input,
+.edit-form textarea{
+    width: 400px;
+}
+
+.edit-form label {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.edit-form form input[type="text"]:focus{
+    border: 1px solid #26170F;
+    outline: none;
+}
+
+.edit-button-block{
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+    margin: 5px;
+}
+
+.edit-button{
+    width: 200px;
+    height: 50px;
+}
+
+.user-list div{
+    margin-bottom: 10px;
+}
+
+.user-list a{
+   font-size: 14px;
+   text-decoration: underline;
+}
+
+.edit-role{
+    width: 199px;
+    height: 50px;
+}
+
+.role-edit-title{
+    font-size: 17px;
+    padding: 0px !important;
+}
+
+.role-edit-form{
+    background: white;
+    border: 1px solid #26170F;
+    width: 583px;
+    height: 289px;
+    margin-top: 46px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+    padding-top: 0;
+}
+
+
+.role-edit-form div{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.role-edit-form label{
+    font-size: 17px;
+    padding: 5px;
+}
+
+.role-edit-form input{
+    height: 25px;
+}
+
+.role-edit-form form input[type="text"]{
+    color:  black;
+    width: 192px;
+}
+
+.role-edit-form p{
+    font-weight: bold;
+
+}
+
+.search-order{
+    background: white;
+    border: 1px solid #26170F;
+    width: 780px;
+    height: 156px;
+    margin-top: 29px;
+    box-shadow: 0px 0px 3px 0px #26170F;
+    padding-top: 21px;
+}
+
+.index-button{
+    margin: 20px;
+    padding-bottom: 32px;
+}
+
+.add-cart{
+    height: 40px !important;
+}
+
+.add-cart-block a{
+    text-decoration: underline;
+}
